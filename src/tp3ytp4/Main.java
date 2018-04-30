@@ -10,7 +10,6 @@ public class Main {
 		long resultado;
 		
 		Scanner leerlong = new Scanner(System.in);	
-		//System.out.println("3%6 es: "+(3%6)+" 3/6 es: "+(3/6));
 		
 		System.out.println("\n** TP3 ** \nIngrese dos numeros y averiguaremos si son coprimos\n\nIngrese el primer numero");
 		numero1  = leerlong.nextLong();
