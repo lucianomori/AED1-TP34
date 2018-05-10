@@ -88,7 +88,6 @@ public static long generadorVonnNewmann(int elem, long sem) {
 		  }
 	   if ((res == 1) && (sem != res)){
 		   System.out.println("\nVonnNewmann se ha generado un desbordamiento en el elemento " + ( elementos - elem + 1)  + " no se puede continuar.");
-		   elem = 0;
 	       }else {
 		   System.out.println("VonnNewmann elemento " + ( elementos - elem + 1) + " = " + resStr);
 		   res = generadorVonnNewmann(elem-1,res);
