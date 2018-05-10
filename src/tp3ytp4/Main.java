@@ -67,8 +67,8 @@ public class Main {
 	public static int generadorCongruencial(int elem, int sem) {
       int res = A * (sem % Q) - R * (sem / Q);
  	  if (res < 0 ) {
-		 res = res + M;
-	  }
+		 res = res + M - 1;
+          }
       if (elem > 0) {
     	  int tmpres = res/100;
     	  tmpres = res - (tmpres * 100);
